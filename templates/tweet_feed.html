@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aquí están tus mensajes</title>
+</head>
+<body>
+    {% for tweet in tweets %}
+        <h1 class="{{tweet}}">{{tweet}}!</h1>
+        <a href="{{tweet}}">&#128147;</a>
+    {% endfor %}
+</body>
+</html>
