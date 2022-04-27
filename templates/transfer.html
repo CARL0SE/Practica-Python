@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bancotorro</title>
+</head>
+<body>
+    <h1>Saldo en la cuenta: {{balance}}</h1>
+    <h2>Nueva transferencia</h2>
+    <form method="post" action="/">
+        <input type="text" name="destination_account" placeholder="Cuenta destino"><br>
+        <input type="number" name="amount" placeholder="Cantidad"><br>
+        <input type="submit" value="Transferir">
+    </form>
+</body>
+</html>
